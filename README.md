@@ -195,3 +195,44 @@ This project is licensed under the MIT License.
 ## Support
 
 For support or questions, please open an issue in the repository.
+Here are clear, copy-paste instructions for starting both the frontend and backend of your incident logger app.
+
+---
+
+## 1. Start the Backend
+
+**A. Terminal Command (copy & paste):**
+```sh
+cd server
+node index.js
+```
+
+**B. How to Run:**
+- Open a terminal window.
+- Navigate to your project directory if you aren’t already there.
+- Paste the above commands into the terminal and press Enter.
+- Leave this terminal window open; the backend server will keep running.
+
+---
+
+## 2. Start the Frontend
+
+**A. Terminal Command (copy & paste):**
+```sh
+cd client
+npm start
+```
+
+**B. How to Run:**
+- Open a new terminal window (so the backend keeps running in the first one).
+- Navigate to your project directory if you aren’t already there.
+- Paste the above commands into the terminal and press Enter.
+- This will start the React frontend and open it in your browser.
+
+---
+
+**Summary:**  
+- Use one terminal for the backend (`cd server && node index.js`).
+- Use a second terminal for the frontend (`cd client && npm start`).
+
+Let me know if you need instructions for stopping the servers or troubleshooting!
